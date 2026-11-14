@@ -1,0 +1,42 @@
+# Belgium — Fry-ndship (SIGMOID)
+
+## Status
+
+**Modeling and validation completed; hidden word not independently decoded.** No unverified flag is claimed here. This folder records what the measurements support and includes executable fitting code and a real observed-vs-predicted figure.
+
+## Challenge
+
+Estimate the perimeter / `edge_m` of potato fields from information available in farmers' declarations. Inspect potential sampling structure and identify the hidden observation, which the challenge expects as `SIGMOID_<WORD>`.
+
+## Regression method
+
+Using [`solve.py`](solve.py), fit `LinearRegression` on the **three declaration-time numeric dimensions** `area_ha`, `long_side_m`, and `ditch_m`, with an 80/20 holdout split (`random_state=42`). Avoid using `hedge_m` because Mariette noted it **on site**, and avoid `fence_quote_eur` because the contractor only supplied it **after surveying**.
+
+## Evidence from the 3,869-row supplied dataset
+
+| Measurement | Result |
+|---|---:|
+| Fields | 3,869 |
+| Held-out fields | 774 |
+| Held-out R² | **0.9991485153** |
+| Held-out mean absolute error | **5.7295 metres** |
+| All-row in-sample R² on declaration-time dimensions | **0.9991432333** |
+| Including site-measured `hedge_m`: in-sample R² | **0.9995102310** |
+
+An important data-availability warning: `fence_quote_eur` is *almost exactly* `9.4 × edge_m + 185`. Using the quote as an input would leak the measurement target and is not legitimate for a before-survey prediction.
+
+The regression accuracy alone **does not establish the hidden word**. Further analysis of how the observed fields were chosen is required to validate the actual challenge flag.
+
+## Figure
+
+The executable script writes `model_evidence.svg` and `model_evidence.png`, showing measured vs predicted edge, holdout residuals and the sampled field locations.
+
+[View the committed diagnostic figure](model_evidence.svg).
+
+## Reproduce
+
+1. Download [`potato_fields.csv` from the original challenge folder](https://drive.google.com/drive/folders/1qpARslPf8JWOCUHjo2ZIBV1X4Nm-BEdk?usp=sharing) and place it beside `solve.py`.
+2. Install `pandas`, `numpy`, `matplotlib` and `scikit-learn`.
+3. Run `python solve.py`; this prints the statistics and creates the figures.
+
+The repository currently contains the supporting diagnostic code and a representative plot, **not verified proof of the final hidden flag**.
