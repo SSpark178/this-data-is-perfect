@@ -11,6 +11,7 @@ This public repository contains reproducible Python solutions, practice checks, 
 | 🇦🇱 **Albania** | Looks like an anomaly! — streaming detector | [Albania/](Albania/README.md) |
 | 🇫🇮 **Finland** | Pipes, Leaks, and the Graph Underneath — route graph | [Finland/](Finland/README.md) |
 | 🇬🇧 **United Kingdom** | Call My BLEUff — **SIGMOID_FRINDLOW** | [United_Kingdom/](United_Kingdom/README.md) · [semantic evidence figure](United_Kingdom/semantic_scores.svg) |
+| 🇬🇷 **Greece** | Just a Thing Between Siblings — **SIGMOID_ARES** | [Greece/](Greece/README.md) · [confusion and recall chart](Greece/comparison.svg) |
 | 🇪🇪 **Estonia** | This Data Is Perfect! — fraud evaluation audit | [Estonia/](Estonia/README.md) |
 
 ## Evidence and reproducibility
