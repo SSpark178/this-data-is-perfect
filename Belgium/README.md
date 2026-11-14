@@ -40,3 +40,7 @@ The executable script writes `model_evidence.svg` and `model_evidence.png`, show
 3. Run `python solve.py`; this prints the statistics and creates the figures.
 
 The repository currently contains the supporting diagnostic code and a representative plot, **not verified proof of the final hidden flag**.
+
+## Additional hypothesis (unverified)
+
+After the initial guess `SIGMOID_OVERFITTING` was rejected by the platform, a further candidate is **`SIGMOID_SELECTIONBIAS`**, based on the task's explicit warning that the surveyed fields were oddly organized. This is a *guess*, not a recovered word, and does not yet satisfy the organizer's requirement for supporting evidence. The submitted flag must not be represented as validated until it is confirmed by the evaluator.
