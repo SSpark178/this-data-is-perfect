@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="970" height="465" viewBox="0 0 970 465">
+<rect width="970" height="465" fill="#fff"/>
+<text x="45" y="48" font-family="Arial, sans-serif" font-size="27" font-weight="bold" fill="#15233b">Greece · The best oracle for catastrophic threats</text>
+<text x="45" y="76" font-family="Arial, sans-serif" font-size="15" fill="#526075">All models have 95% accuracy · threshold 0.50 · 100 positives / 1000 encounters</text>
+<text x="202" y="113" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2b3545">Recall of real threats</text>
+<text x="692" y="113" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2b3545">False negatives (misses)</text><text x="47" y="185" font-family="Arial, sans-serif" font-size="19" font-weight="bold" fill="#243141">Ares</text>
+ <rect x="202" y="160" width="365" height="35" rx="6" fill="#eff2f5"/>
+ <rect x="202" y="160" width="346.75" height="35" rx="6" fill="#18876c"/>
+ <text x="580" y="185" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#233242">95%</text>
+ <rect x="694" y="160" width="163" height="35" rx="6" fill="#eff2f5"/>
+ <rect x="694" y="160" width="16.3" height="35" rx="6" fill="#18876c"/>
+ <text x="869" y="185" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#233242">5</text><text x="47" y="272" font-family="Arial, sans-serif" font-size="19" font-weight="normal" fill="#243141">Athena</text>
+ <rect x="202" y="247" width="365" height="35" rx="6" fill="#eff2f5"/>
+ <rect x="202" y="247" width="273.75" height="35" rx="6" fill="#64748b"/>
+ <text x="580" y="272" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#233242">75%</text>
+ <rect x="694" y="247" width="163" height="35" rx="6" fill="#eff2f5"/>
+ <rect x="694" y="247" width="81.5" height="35" rx="6" fill="#64748b"/>
+ <text x="869" y="272" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#233242">25</text><text x="47" y="359" font-family="Arial, sans-serif" font-size="19" font-weight="normal" fill="#243141">Apollo</text>
+ <rect x="202" y="334" width="365" height="35" rx="6" fill="#eff2f5"/>
+ <rect x="202" y="334" width="200.75" height="35" rx="6" fill="#916a9c"/>
+ <text x="580" y="359" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#233242">55%</text>
+ <rect x="694" y="334" width="163" height="35" rx="6" fill="#eff2f5"/>
+ <rect x="694" y="334" width="146.7" height="35" rx="6" fill="#916a9c"/>
+ <text x="869" y="359" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#233242">45</text><line x1="45" y1="421" x2="925" y2="421" stroke="#e2e8f0"/>
+<text x="45" y="449" font-family="Arial, sans-serif" font-size="15" fill="#1a785f" font-weight="bold">Choose Ares: 5 missed catastrophic threats vs Athena’s 25 and Apollo’s 45.</text>
+</svg>
