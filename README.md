@@ -4,6 +4,9 @@ This public repository contains reproducible Python solutions, practice checks, 
 
 | Country | Challenge | Code and evidence |
 |---|---|---|
+| 🇵🇹 **Portugal** | The Douro Paradox — Simpson's paradox on vineyard distance | [Portugal/](Portugal/README.md) |
+| 🇪🇬 **Egypt** | Always Valid, No Excuses — supplied parser and output | [Egypt/](Egypt/main(2).py) · [test output](Egypt/test_output.txt) |
+| 🇦🇴 **Angola** | The Waterline Replay — answer | [Angola/](Angola/answer.txt) |
 | 🇧🇪 **Belgium** | Fry-ndship — hedge residuals spell SUPERVISION | [Belgium/](Belgium/README.md) · [residual evidence figure](Belgium/model_evidence.svg) |
 | 🇨🇭 **Switzerland** | The Weak Layer — decision-tree structure decoding | [Switzerland/](Switzerland/README.md) |
 | 🇪🇸 **Spain** | ¡Feliz Navidad! — fair-price souvenir board | [Spain/](Spain/README.md) · [board figure](Spain/christmas_board.svg) |
