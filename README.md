@@ -12,6 +12,7 @@ This public repository contains reproducible Python solutions, practice checks, 
 | 🇫🇮 **Finland** | Pipes, Leaks, and the Graph Underneath — route graph | [Finland/](Finland/README.md) |
 | 🇬🇧 **United Kingdom** | Call My BLEUff — **SIGMOID_FRINDLOW** | [United_Kingdom/](United_Kingdom/README.md) · [semantic evidence figure](United_Kingdom/semantic_scores.svg) |
 | 🇬🇷 **Greece** | Just a Thing Between Siblings — **SIGMOID_ARES** | [Greece/](Greece/README.md) · [confusion and recall chart](Greece/comparison.svg) |
+| 🇩🇪 **Germany** | Cutia neagră — **SIGMOID_FACTORIAL**, 100/100 accepted | [Germany/](Germany/README.md) · [solution](Germany/main.py) |
 | 🇷🇴 **Romania** | Shaken, Still Standing — **SIGMOID_CONVOLUTION** | [Romania/](Romania/README.md) · [mixture-of-experts code](Romania/solution.py) |
 | 🇪🇪 **Estonia** | This Data Is Perfect! — fraud evaluation audit | [Estonia/](Estonia/README.md) |
 
@@ -19,6 +20,7 @@ This public repository contains reproducible Python solutions, practice checks, 
 
 Each folder includes a country-specific README with the method, evidence obtained from practice data, execution instructions, and the original organizer's data link where applicable. Generated evidence figures are committed as text-based SVG when suitable. Some country folders link to the organizer's data rather than committing large input CSVs; **Greece includes the test dataset, true labels, and all three PyTorch model checkpoints** for direct reproducibility.
 
+- **Germany:** submit `main.py` alone; the platform accepted 100/100 with 136/150 queries and released `SIGMOID_FACTORIAL`.
 - **Switzerland:** submit `main.py` alone; practice word `DEMO` is not the final flag.
 - **Spain:** submit the recovered flag **and a link to the figure and code**.
 - **Iceland:** submit `main.py` alone; its output is an exact CSV.
