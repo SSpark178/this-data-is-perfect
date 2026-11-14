@@ -4,6 +4,7 @@ This public repository contains reproducible Python solutions, practice checks, 
 
 | Country | Challenge | Code and evidence |
 |---|---|---|
+| 🇷🇼 **Rwanda** | The Drying Floor at Karongi — loop convergence | [Rwanda/](Rwanda/README.md) |
 | 🇵🇹 **Portugal** | The Douro Paradox — Simpson's paradox on vineyard distance | [Portugal/](Portugal/README.md) |
 | 🇪🇬 **Egypt** | Always Valid, No Excuses — supplied parser and output | [Egypt/](Egypt/main(2).py) · [test output](Egypt/test_output.txt) |
 | 🇦🇴 **Angola** | The Waterline Replay — answer | [Angola/](Angola/answer.txt) |
