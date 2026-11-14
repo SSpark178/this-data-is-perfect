@@ -4,7 +4,7 @@ This public repository contains reproducible Python solutions, practice checks, 
 
 | Country | Challenge | Code and evidence |
 |---|---|---|
-| 🇧🇪 **Belgium** | Fry-ndship — hedge residuals spell SUPERVISION | [Belgium/](Belgium/README.md) |
+| 🇧🇪 **Belgium** | Fry-ndship — hedge residuals spell SUPERVISION | [Belgium/](Belgium/README.md) · [residual evidence figure](Belgium/model_evidence.svg) |
 | 🇨🇭 **Switzerland** | The Weak Layer — decision-tree structure decoding | [Switzerland/](Switzerland/README.md) |
 | 🇪🇸 **Spain** | ¡Feliz Navidad! — fair-price souvenir board | [Spain/](Spain/README.md) · [board figure](Spain/christmas_board.svg) |
 | 🇮🇸 **Iceland** | What The Data? — geothermal export cleaner | [Iceland/](Iceland/README.md) |
