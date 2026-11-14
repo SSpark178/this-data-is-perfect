@@ -48,3 +48,9 @@ After the initial guess `SIGMOID_OVERFITTING` was rejected by the platform, a fu
 ## Follow-up hypothesis
 
 `SIGMOID_SELECTIONBIAS` was rejected by the platform. The field identifiers reveal a strongly nonuniform sampling rate: IDs 1–~1,800 are nearly complete while the share of included fields falls toward the end of the 4,945-ID sequence. This supports an additional *unverified* hypothesis, `SIGMOID_SAMPLINGBIAS`. This is a descriptive inference, not an independently decoded hidden word.
+
+## Reassessment of the sample-selection mechanism
+
+The local supplied CSV has 3,869 distinct surveyed rows with IDs ranging from 1 to 4,945. The number of included IDs by consecutive 1,000-ID intervals is approximately **990, 980, 836, 638 and 425** (the last range contains 945 possible IDs). This strong variation shows the **survey inclusion rate decreases with the identifier**, rather than being uniform. The mean observed `edge_m` also grows from approximately 650–675 metres in the earliest ID intervals to over 740 metres in the latest intervals.
+
+These observations support investigation of a shift in the *distribution of recorded fields* (possible covariate/selection effects). They do **not**, on their own, identify a cryptographically or visually encoded word. Earlier attempts `SIGMOID_OVERFITTING`, `SIGMOID_SELECTIONBIAS`, and `SIGMOID_SAMPLINGBIAS` were rejected by the platform. The further proposed guess `SIGMOID_COVARIATESHIFT` remains **unverified**; no successful flag has been established.
