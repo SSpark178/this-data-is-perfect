@@ -31,7 +31,7 @@ This flag was confirmed by the solver after previous guesses failed. The hidden 
 
 This figure is generated directly by [`solve.py`](solve.py), which saves both `fry_ndship.png` and `fry_ndship.svg`.
 
-**Important distinction:** The earlier diagnostic `model_evidence.svg` was based on a different analysis and does not show the hidden word. The correct evidence is the **hedge residual figure** produced by this script.
+**Supporting figure committed on GitHub:** [View the rasterized hedge-residual plot](model_evidence.svg). It was constructed by binning the same 3,869 observed points into a 220 × 54 display grid; the executable Python script generates the full-resolution scatter plot as `fry_ndship.png` and `fry_ndship.svg`.
 
 ## Reproduce
 
