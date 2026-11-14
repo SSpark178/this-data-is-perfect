@@ -63,10 +63,10 @@ Romania/
   dataset/
     train.csv
     sealed.csv
-    vault.npz  # supplied by the organizer; required by evaluator
+    vault.npz  # original binary evaluator archive
 ```
 
-If `dataset/vault.npz` is not present in a checkout, obtain it from the organizer's supplied materials. It contains no plaintext labels and is used by the evaluator rather than by the training script. Original datasets and evaluator supplied with this challenge have been placed in the folder. If the vault file is missing, retrieve it from the same organizer package used for this task.
+The original `dataset/vault.npz` is committed in binary form and is used only by the evaluator, not by the training procedure; it does not store the true labels in plaintext. The dataset, code, and local evaluator supplied with the task are all included.
 
 ## How the flag is obtained
 
