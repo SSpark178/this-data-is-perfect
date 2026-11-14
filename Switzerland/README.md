@@ -8,7 +8,7 @@ Submit [`main.py`](main.py) to the organizer's evaluator. It reads `test-input.c
 
 ## Method
 
-1. Read the observations and select the six-dimensional? No: **all numeric feature columns** except the target `slab_released`.
+1. Read the observations and select **all feature columns** except the target `slab_released`.
 2. Fit `DecisionTreeClassifier(random_state=42)` with all other hyperparameters at scikit-learn defaults.
 3. Traverse the fitted tree in **preorder**: node, left subtree, right subtree.
 4. At every internal node, take the uppercase first letter of its splitting feature's name.
