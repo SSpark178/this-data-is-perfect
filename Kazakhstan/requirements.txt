@@ -4,3 +4,5 @@ opencv-python-headless==5.0.0.93
 scikit-learn==1.8.0
 joblib==1.5.3
 torch>=2.6
+lightgbm==4.7.0
+scikit-image>=0.25
